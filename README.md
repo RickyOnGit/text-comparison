@@ -49,5 +49,4 @@ $index = $ref_2->correlationText($val_1,$val_2);
 if ($index >= 60){                                                           
 $q = number_format($index, 2, ',', '.').'%';                                 
 echo 'sentence of text 1 n '.$nr1.':<br>'.$val_1.' ;<br>compared with        
-sentence of text 2 n '.$nr2.':<br>'.$val_2.' ;                               
-<br>is similar for the: '.$q;                                                
+sentence of text 2 n '.$nr2.':<br>'.$val_2.' ;<br>are similar with each other for the: '.$q;                                                
