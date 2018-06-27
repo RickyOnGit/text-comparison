@@ -1,4 +1,4 @@
-Author: Riccardo Castagna MBA, Php developer email: 3315954155@libero.it 
+Author: Riccardo Castagna MBA, Php developer https://api.whatsapp.com/send?phone=393315954155 
 # text-comparison
 comparison analysis between two texts
 
