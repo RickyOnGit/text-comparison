@@ -140,5 +140,7 @@ echo '<br>';
 }
 } 
 }
+echo "</strong><br>";
+echo "<br></pre>";
 
 ?>
