@@ -92,28 +92,35 @@ include_once('./lib/class.comparetext.php');
 $ref = new TextCompare;
 
 /********************* SIMPLE USAGE ****************************/
-
+echo "<pre>";
 echo "This is the demo with the simple php class usage to compare two texts with each other:";
-echo "<br>";
-echo "<br>";
+echo "</pre><br>";
+echo "<br><pre>";
 echo "In this example I took two news article, one is by National Geographic and the other is by the New York Times about the climate change. 
-The php class compare the full two article. I have set up to extract all the sentences that are similar with each other with a percentage grater than 60 %. In this case I have manually copied the two full article into the example files index.php and index_2.php but is also 
-possible to get the articles with the implementation of php cURL extension and than use this class to compare the texts";
+The php class compare the full two article. I have set up to extract all the sentences that are similar with each other with a percentage grater than 60 %;  
+this value, that in this case I have set up to 60,  is customizable, according to the needs of the analysis. 
+In this case I have manually copied the two full article into the example files index.php and index_2.php but is also 
+possible, obviously, for those who want it, to integrate the functions of the cURL, for example, to make inquiries on the web  
+or for other types or purposes of analysis.
+At the end, in this example, is shown the result of this analysis, and this php class, between the two article analyzed, find only one sentece similar.";
 echo "<br>";
-echo "<br>";
+echo "Obviously, in this case, which is only a demonstrative example, we can not say that it is plagiarism but a simple quotation. 
+If instead, the analysis had extracted many more similar sentences, then, perhaps, it could have been plagiarism.";
+echo "</pre><br>";
+echo "<br><pre>";
 echo "The article N.1 is by Stephen Leahy, published: June 27, 2018  https://news.nationalgeographic.com/2018/06/tropical-deforestation-forest-loss-2017/  ";
 echo "<br>";
 echo "<br>";
 echo "The article N.2 is by Brad Plumer, published: June 27, 2018 https://www.nytimes.com/2018/06/27/climate/tropical-trees-deforestation.html  ";
 echo "<br>";
-echo "<br>";
+echo "<br><strong>";
 echo "The result of the compare analysis is:";
-echo "<br>";
-echo "<br>";
+echo "</strong><br>";
+echo "<br><strong>";
 
 $f = $ref->compareText($text_1, $text_2, 60, TRUE);
 return $f;
-echo "<br>";
-echo "<br>";
+echo "</strong><br>";
+echo "<br></pre>";
 
 ?>
