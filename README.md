@@ -3,14 +3,18 @@ Author: Riccardo Castagna MBA, Php developer https://api.whatsapp.com/send?phone
 comparison analysis between two texts
 
 * This php class is useful to compare two different texts in the hypothesis that   
-the two source texts have a good spelling and a correct punctuation. It      
-finds similar sentences and returns the percentages, these percentages are   
+the two source texts have a good spelling and a correct punctuation. After all, if a text did not have 
+a correct end punctuation it would be incomprehensible. In the next future, I will add some 
+functions to check that the source texts have correct end punctuation, because, at the moment, 
+there is no check about this issue.  
+It finds similar sentences and returns the percentages, these percentages are   
 the measures of how much the sentences are similar with each others.
 
 * Possible applications and uses could be in the field of journalism, for      
-example, to find the similar articles, in the cases of plagiarism, for       
+example, to find the similar articles. In the cases of plagiarism, for       
 investigations of various kinds when it is necessary to analyze and compare  
-texts with each other.                                                       
+texts with each other. I think also could be useful in the field of politics, psychology, 
+school education, e-learning.                                                        
  
 * CLASS SIMPLE USAGE example file index.php:                                   
 include_once('./lib/class.comparetext.php');                                 
