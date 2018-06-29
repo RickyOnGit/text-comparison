@@ -14,7 +14,7 @@ the measures of how much the sentences are similar with each others.
 example, to find the similar articles. In the cases of plagiarism, for       
 investigations of various kinds when it is necessary to analyze and compare  
 texts with each other. I think also could be useful in the field of politics, psychology, 
-school education, e-learning.                                                        
+school education, e-learning, for publishing company, publishing house and writer.                                                        
  
 * CLASS SIMPLE USAGE example file index.php:                                   
 include_once('./lib/class.comparetext.php');                                 
